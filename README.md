@@ -4,7 +4,7 @@
 ```markdown
 # 📝 Task Management WebApp
 
-A full-stack task management system with secure authentication, OTP verification, Google OAuth 2.0 login, role-based access control, and task CRUD operations. Built using **React + Vite (Frontend)** and **Node.js/Express + MongoDB (Backend)**.
+A full-stack task management system with secure authentication, OTP verification, role-based access control, and task CRUD operations. Built using **React + Vite (Frontend)** and **Node.js/Express + MongoDB (Backend)**.
 
 ---
 
@@ -12,7 +12,6 @@ A full-stack task management system with secure authentication, OTP verification
 
 ### 🔐 Authentication
 - Email/password login & signup with OTP email verification
-- Google OAuth 2.0 login via `@react-oauth/google`
 - JWT-based token authentication (stored in cookies)
 - Protected API routes and pages
 
@@ -91,7 +90,7 @@ GOOGLE_CLIENT_ID=your_google_client_id
 EMAIL_USER=your_gmail
 EMAIL_PASS=your_app_password
 ```
-
+or unzip env.zip and Paste .env files
 Start the backend server:
 
 ```bash
@@ -107,11 +106,6 @@ cd frontend
 npm install
 ```
 
-Create a `.env` file in the `frontend/` directory:
-
-```env
-VITE_GOOGLE_CLIENT_ID=your_google_client_id
-```
 
 Start the frontend server:
 
@@ -179,10 +173,3 @@ Made with ❤️ by **Pamudu_Wijayabandara** – [GitHub](https://github.com/Pam
 
 ```
 
----
-
-Let me know if you want to:
-- Add **deployment instructions** (e.g., Vercel/Render/MongoDB Atlas)
-- Include **screenshots or badges**
-- Write a **contribution guide or changelog**
-```
