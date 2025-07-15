@@ -57,7 +57,7 @@ A full-stack task management system with secure authentication, OTP verification
 
 - **Frontend**: React + Vite, Tailwind CSS, Axios, React Router
 - **Backend**: Node.js, Express, MongoDB, Mongoose, JWT, Nodemailer
-- **Authentication**: Google OAuth 2.0, OTP Email Verification
+- **Authentication**: OTP Email Verification
 - **Tools**: PDF Generation, Role-based middleware
 
 ---
@@ -105,7 +105,8 @@ npm run dev
 cd frontend
 npm install
 ```
-
+unzip env and save .env 
+in the front-end 
 
 Start the frontend server:
 
